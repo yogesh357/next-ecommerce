@@ -36,3 +36,14 @@ A modern e-commerce web application built with **Next.js**, powered by **Sanity 
 │   ├── lib/        # Utility functions (Stripe, Sanity client, etc.)
 │   └── styles/     # Global & module styles
 └── package.json
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+npm install
+# or
+yarn install
+
+npm run dev
+# or
+yarn dev
