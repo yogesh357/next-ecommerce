@@ -20,7 +20,7 @@ A modern e-commerce web application built with **Next.js**, powered by **Sanity 
 - **Frontend:** [Next.js](https://nextjs.org/)  
 - **CMS:** [Sanity.io](https://www.sanity.io/)  
 - **Payments:** [Stripe](https://stripe.com/)  
-- **Styling:** Tailwind CSS / CSS Modules (choose based on your setup)  
+- **Styling:** Tailwind CSS / CSS Modules    
 - **Deployment:** Vercel / Netlify  
 
 ---
@@ -47,3 +47,11 @@ yarn install
 npm run dev
 # or
 yarn dev
+```
+
+### Images
+**Product UI
+![product UI](https://github.com/user-attachments/assets/76758bcd-b70c-4d3c-9744-45c446115e8d)
+
+**Sanity Studio
+![sanity studio](https://github.com/user-attachments/assets/4321b56e-bfee-4db4-891d-090813ed4931)
