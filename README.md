@@ -50,12 +50,17 @@ yarn dev
 ```
 
 ### Images
+--
 **Product UI**
+--
 ![product UI](https://github.com/user-attachments/assets/76758bcd-b70c-4d3c-9744-45c446115e8d)
 
 **Sanity Studio**
+--
 ![sanity studio](https://github.com/user-attachments/assets/4321b56e-bfee-4db4-891d-090813ed4931)
-
+--
 **Stripe Gateway**
-<img width="1494" height="860" alt="image" src="https://github.com/user-attachments/assets/a5c98426-6108-4a47-887c-292f6395b79d" />
+--
+<img width="1389" height="851" alt="image" src="https://github.com/user-attachments/assets/4bbc112c-8033-4b1a-b03d-d69e309f2958" />
+
 
