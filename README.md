@@ -50,8 +50,8 @@ yarn dev
 ```
 
 ### Images
-**Product UI
+**Product UI**
 ![product UI](https://github.com/user-attachments/assets/76758bcd-b70c-4d3c-9744-45c446115e8d)
 
-**Sanity Studio
+**Sanity Studio**
 ![sanity studio](https://github.com/user-attachments/assets/4321b56e-bfee-4db4-891d-090813ed4931)
