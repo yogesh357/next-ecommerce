@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 E-Commerce Website  
 
-## Getting Started
+A modern e-commerce web application built with **Next.js**, powered by **Sanity CMS** for content management, and integrated with **Stripe** for secure payment processing.  
 
-First, run the development server:
+---
+
+## 🚀 Features  
+
+- 🖼️ **Headless CMS with Sanity** – Easily manage products, categories, and content.  
+- ⚡ **Next.js** – Fast, SEO-friendly, and optimized React framework.  
+- 💳 **Stripe Payments** – Secure checkout and payment processing.  
+- 🛍️ **Dynamic Cart System** – Add, remove, and update products in the cart.  
+- 📱 **Responsive Design** – Fully responsive across devices.  
+- 🔍 **Product Search & Filtering** (if added).  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** [Next.js](https://nextjs.org/)  
+- **CMS:** [Sanity.io](https://www.sanity.io/)  
+- **Payments:** [Stripe](https://stripe.com/)  
+- **Styling:** Tailwind CSS / CSS Modules    
+- **Deployment:** Vercel / Netlify  
+
+---
+
+## 📂 Project Structure  
 
 ```bash
+.
+├── sanity/         # Sanity CMS schemas & configurations
+├── src/            # Next.js app source
+│   ├── components/ # Reusable UI components
+│   ├── pages/      # Application routes
+│   ├── lib/        # Utility functions (Stripe, Sanity client, etc.)
+│   └── styles/     # Global & module styles
+└── package.json
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+npm install
+# or
+yarn install
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Images
+--
+**Product UI**
+--
+![product UI](https://github.com/user-attachments/assets/76758bcd-b70c-4d3c-9744-45c446115e8d)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Sanity Studio**
+--
+![sanity studio](https://github.com/user-attachments/assets/4321b56e-bfee-4db4-891d-090813ed4931)
+--
+**Stripe Gateway**
+--
+<img width="1389" height="851" alt="image" src="https://github.com/user-attachments/assets/4bbc112c-8033-4b1a-b03d-d69e309f2958" />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
